@@ -1,0 +1,65 @@
+Table of Quality Codes used in CRUTEM station database
+
+A six-digit quality code is used in version CRUTEMsd.5.1 and later.
+
+Flag values that are non-zero indicate some concern over the reliability of the value.
+
+Flag values that are zero do not indicate that the value is reliability.
+Due to the limited scope of our checks, we are unable to provide such a warranty.
+
+
+Digit 1 -- manually flagged values (individually or as part of a block)
+
+0:
+No concerns have been raised
+
+1:
+Part of a block of values at the start of the timeseries that may be unreliable because they are before the first values considered to be reliable.
+
+2:
+Part of a block of values later in the timeseries that appear to be unreliable.
+
+3:
+An individual value that appears to be unreliable.
+
+4-9:
+Reserved for future expansion.
+
+
+Digit 2 -- statistically flagged as physically implausible
+
+0:
+The value lies within the physically plausible range.
+
+1:
+The value lies below the physically plausible range.
+
+2:
+The value lies above the physically plausible range.
+
+3-9:
+Reserved for future expansion.
+
+
+Digit 3 -- statistically flagged as potential outliers
+
+0:
+The value passed statistical outlier checks.
+
+1:
+The value appears to be a cold outlier.
+
+2:
+The value appears to be a warm outlier.
+
+3-9:
+Reserved for future expansion.
+
+
+Digit 4 -- reserved for future expansion
+
+
+Digit 5 -- reserved for future expansion
+
+
+Digit 6 -- reserved for future expansion
