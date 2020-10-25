@@ -6,4 +6,4 @@ CRUTEM station databases contain monthly air temperatures over land from weather
 Supporting information provided here:
 
 * Table of Quality codes https://github.com/TimOsbornClim/CRUTEMsd_info/blob/main/crutemsd_qualitycodes.txt
-* Table of Source codes
+* Table of Source codes https://github.com/TimOsbornClim/CRUTEMsd_info/blob/main/crutemsd_sourcecodes.txt
