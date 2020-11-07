@@ -29,7 +29,7 @@ Reserved for future expansion.
 Digit 2 -- statistically flagged as physically implausible
 
 0:
-The value lies within the physically plausible range.
+The value lies within the physically plausible range or has not been checked.
 
 1:
 The value lies below the physically plausible range.
@@ -44,7 +44,7 @@ Reserved for future expansion.
 Digit 3 -- statistically flagged as potential outliers
 
 0:
-The value passed statistical outlier checks.
+The value passed statistical outlier checks or has not been checked.
 
 1:
 The value appears to be a cold outlier.
