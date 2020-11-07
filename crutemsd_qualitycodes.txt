@@ -22,7 +22,10 @@ Part of a block of values later in the timeseries that appear to be unreliable.
 3:
 An individual value that appears to be unreliable.
 
-4-9:
+9:
+Value is missing
+
+4-8:
 Reserved for future expansion.
 
 

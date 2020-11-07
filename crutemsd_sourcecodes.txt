@@ -17,6 +17,7 @@ Three optional additional source fields can be provided, separated by '|':
 
 The first digit of the source code indicates the type of source:
 
+0 (not currently used except for missing values)
 1 (from World Weather Records; and for WWR the remaining characters to give the decade e.g. 101951 for 1951-60 decade book)
 2 (NMC homogenized)
 3 (from NMC and probably homogenized)
@@ -28,6 +29,8 @@ The first digit of the source code indicates the type of source:
 9 (from CRU archive)
 
 Source code table (one blank line between each entry)
+
+000000 source_name="" | source_description=""
 
 900010 source_name="CRUTEM5.0_CRU" | source_description="CRUTEM5.0 data, some monthly values may have been obtained from other sources, but the predominant source for this station was an earlier CRU archive, with homogeneity of sites assessed in Jones et al. (1985, 1986)"
 
