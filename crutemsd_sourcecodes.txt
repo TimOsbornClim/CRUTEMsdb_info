@@ -1,16 +1,16 @@
 Table of Source Codes used in CRUTEM station database
 
-Six-digit source codes are used in version CRUTEMsd.5.1 and later.
+Six-digit source codes are used in version CRUTEMsdb.5.1 and later.
 
 An overall source code is given for each station, which indicates the dominant source.
 For some stations, all values will have come from that single source.
 For other stations, values will have come from multiple sources, and the overall source code just indicates the dominant source.
 
-Starting CRUTEMsd.5.1, individual source codes are also given for each monthly value.
+Starting CRUTEMsdb.5.1, individual source codes are also given for each monthly value.
 They allow multiple sources to be traced, when this information is available.
-For most stations, detailed source information is not available in machine-readable format, and this will be made clear in the description for the source code given..
+For most stations, detailed source information is not available in machine-readable format, and this is made clear in the description for the source code given.
 
-Three optional additional source fields can be provided, separated by '|':
+In the station files (not here in the source code table), three optional additional source fields can be provided, separated by '|':
 (a) version of source, usually the date it was obtained (in format YYYY-MM-DD)
 (b) any arithmetic modification to the source value (this isn't always recorded)
 (c) nNNNN, an indication of any notes to provide context for the values, either a note added to the end of the station file and numbered NNNN or a note stored as a text file nNNNN.txt in the folder containing the acquired data within CRU files.
