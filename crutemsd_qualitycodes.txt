@@ -44,7 +44,7 @@ The value lies above the physically plausible range.
 Reserved for future expansion.
 
 
-Digit 3 -- statistically flagged as potential outliers
+Digit 3 -- statistically flagged as potential outlier
 
 0:
 The value passed statistical outlier checks or has not been checked.
